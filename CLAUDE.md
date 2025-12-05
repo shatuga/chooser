@@ -6,6 +6,18 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 The Chooser app is a flexible tool for creating and sharing customizable selection sessions (scheduling times, selecting dates, choosing items for potlucks, etc.). The app uses a versioned architecture with isolated deployments per version.
 
+## Shared Components
+
+Shared assets (images, includes, JavaScript) are maintained in the main shatuga.com project:
+
+**Location**: `C:\Users\shatu\web_projects\shatuga.com`
+
+- **Images**: `C:\Users\shatu\web_projects\shatuga.com\images\` - Logos, icons, common graphics
+- **Includes**: `C:\Users\shatu\web_projects\shatuga.com\includes\` - Reusable HTML snippets (headers, footers)
+- **JavaScript**: `C:\Users\shatu\web_projects\shatuga.com\js\` - Common utilities and scripts
+
+**Important**: These directories are **READ-ONLY** for this project. Do not modify files in the shatuga.com directory. To use shared components, copy them into this project. Updates to shared components should only be made on explicit user request.
+
 ## Architecture
 
 ### Three-Part Structure
