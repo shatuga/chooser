@@ -1,0 +1,21 @@
+name = "chooser-api"
+main = "src/index.ts"
+compatibility_date = "2024-12-04"
+
+# Routes - you'll configure these in Cloudflare dashboard or add here once domain is set up
+# routes = [
+#   { pattern = "chooser.shatuga.com/api/v1/*", zone_name = "shatuga.com" },
+#   { pattern = "chooser.shatuga.com/api/v2/*", zone_name = "shatuga.com" }
+# ]
+
+# D1 Database bindings - create databases first with:
+# wrangler d1 create chooser_v1
+[[d1_databases]]
+binding = "CHOOSER_DB_V1"
+database_name = "chooser_v1"
+database_id = ""  # Fill this in after creating the database
+
+# [[d1_databases]]
+# binding = "CHOOSER_DB_V2"
+# database_name = "chooser_v2"
+# database_id = ""  # Fill this in when v2 is ready
