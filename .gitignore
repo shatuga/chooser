@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.dev.vars
+
+# Editor directories
+.vscode/
+.idea/
+.claude/settings.local.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Wrangler
+.wrangler/
+wrangler.toml.backup
+
+# Private/local notes
+private/
