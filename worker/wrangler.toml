@@ -1,4 +1,4 @@
-name = "chooser-api"
+name = "shatuga-chooser-api"
 main = "src/index.ts"
 compatibility_date = "2024-12-04"
 
