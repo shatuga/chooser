@@ -7,6 +7,11 @@ dist/
 build/
 *.log
 
+# NOTE: We intentionally commit built files in site/a/*/
+# to ensure version immutability. Once built and deployed,
+# a version should never change. This guarantees that
+# v1 choosers work forever, exactly as originally built.
+
 # Environment variables
 .env
 .env.local

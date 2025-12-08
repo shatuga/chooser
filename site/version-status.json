@@ -1,0 +1,30 @@
+{
+  "versions": {
+    "v1": {
+      "released": "2024-12-08",
+      "status": "stable",
+      "description": "Initial release with core functionality",
+      "features": [
+        "Weekly time selector",
+        "Monthly date selector",
+        "Potluck contribution selector",
+        "Simple poll",
+        "No-login required architecture",
+        "Admin access via secret URL"
+      ],
+      "breaking_changes": [],
+      "deprecated": false
+    },
+    "v2": {
+      "released": null,
+      "status": "planned",
+      "description": "Future version - not yet implemented",
+      "features": [],
+      "breaking_changes": [],
+      "deprecated": false
+    }
+  },
+  "current_stable": "v1",
+  "current_beta": null,
+  "notes": "Each version is permanently isolated. Choosers created in v1 will always use v1 APIs and database."
+}

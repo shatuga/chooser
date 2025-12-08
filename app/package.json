@@ -7,6 +7,11 @@
     "dev": "vite",
     "build": "vite build",
     "build:version": "vite build",
+    "build:v1": "CHOOSER_VERSION=v1 vite build",
+    "build:v2": "CHOOSER_VERSION=v2 vite build",
+    "build:all": "npm run build:v1 && npm run build:v2",
+    "dev:v1": "CHOOSER_VERSION=v1 vite",
+    "dev:v2": "CHOOSER_VERSION=v2 vite",
     "preview": "vite preview"
   },
   "dependencies": {
